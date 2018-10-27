@@ -26,6 +26,7 @@ export default {
       let src = new String();
       let port = "0000"; //port number
 
+      //You can modify src to change webPage
       src = `${window.location.protocol}//${window.location.hostname}:${port}/#/`;
 
       return src;
@@ -61,7 +62,7 @@ export default {
   color: black;
 }
 .StatusBar::after {
-  content: "CLICK";
+  content: "STATUSBAR";
   right: 0;
   color: rgb(255, 217, 85);
 }
